@@ -5,7 +5,7 @@ Although next generation sequencing technologies have made it possible to quickl
 
 (a) Architecture of conditional GAN on genomics data  |  (b) Architectures of the generator and discriminator
 :-------------------------:|:-------------------------:  
-![](img/cGANs.png)         |  ![](img/G_D.png)  
+![](img/cGAN.png)         |  ![](img/G_D.png)  
 
 <p align="justify"> <strong>Fig. 1.</strong> Architecture of the proposed PG-cGAN model for genomics data augmentation. 
 The generator accepts a population label as a condition, and then embeds it to the same dimension with a noise vector, in order to join with the noise input by multiplication. The discriminator also accepts a population label as a condition, and then embeds it to the same dimension with the genotype vector, in order to join with the genotype input by multiplication. </p>
